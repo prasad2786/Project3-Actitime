@@ -1,10 +1,10 @@
-package Testscripts;
+package Testscripts3;
 
 import org.testng.annotations.Test;
 
-import POM.Actitime;
-import POM.Entertimetrack;
-import GENERIC.*;
+import GENERIC3.*;
+import POM3.Actitime;
+import POM3.Entertimetrack;
 
 
 public class Testlogin extends genericopenurl

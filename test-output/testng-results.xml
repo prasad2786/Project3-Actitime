@@ -2,32 +2,36 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37064" started-at="2020-07-08T06:58:31Z" finished-at="2020-07-08T06:59:08Z">
+  <suite name="Default suite" duration-ms="51785" started-at="2020-07-23T06:23:18Z" finished-at="2020-07-23T06:24:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37064" started-at="2020-07-08T06:58:31Z" finished-at="2020-07-08T06:59:08Z">
-      <class name="Testscripts.Testlogin">
-        <test-method status="PASS" signature="openapp()[pri:0, instance:Testscripts.Testlogin@233c0b17]" name="openapp" is-config="true" duration-ms="17517" started-at="2020-07-08T12:28:31Z" finished-at="2020-07-08T12:28:48Z">
+    <test name="Default test" duration-ms="51785" started-at="2020-07-23T06:23:18Z" finished-at="2020-07-23T06:24:09Z">
+      <class name="Testscripts3.Getalllinks">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:Testscripts3.Getalllinks@233c0b17]" name="openapp" is-config="true" duration-ms="28094" started-at="2020-07-23T11:53:18Z" finished-at="2020-07-23T11:53:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="FAIL" signature="test1()[pri:0, instance:Testscripts.Testlogin@233c0b17]" name="test1" duration-ms="2309" started-at="2020-07-08T12:28:48Z" finished-at="2020-07-08T12:28:50Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method status="FAIL" signature="getlinks()[pri:0, instance:Testscripts3.Getalllinks@233c0b17]" name="getlinks" duration-ms="10118" started-at="2020-07-23T11:53:46Z" finished-at="2020-07-23T11:53:56Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1309,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+              <![CDATA[Unable to locate element: //button[.='✕']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-G2BE6GC', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20168, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 940feda7-0c43-4dda-94c0-e6bd35c072e4]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 32372, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 50814ff8-265d-4956-9728-43d0d733bcf8
+*** Element info: {Using=xpath, value=//button[.='✕']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a id="logoutLink" class="logout" href="/logout.do"> is not clickable at point (1309,17) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[.='✕']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-G2BE6GC', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20168, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 940feda7-0c43-4dda-94c0-e6bd35c072e4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 32372, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 50814ff8-265d-4956-9728-43d0d733bcf8
+*** Element info: {Using=xpath, value=//button[.='✕']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -38,16 +42,11 @@ Session ID: 940feda7-0c43-4dda-94c0-e6bd35c072e4
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at POM.Entertimetrack.logout(Entertimetrack.java:20)
-	at Testscripts.Testlogin.test1(Testlogin.java:24)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Testscripts3.Getalllinks.getlinks(Getalllinks.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -74,15 +73,15 @@ Session ID: 940feda7-0c43-4dda-94c0-e6bd35c072e4
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:Testscripts.Testlogin@233c0b17]" name="closeapp" is-config="true" duration-ms="17200" started-at="2020-07-08T12:28:50Z" finished-at="2020-07-08T12:29:08Z">
+        </test-method> <!-- getlinks -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:Testscripts3.Getalllinks@233c0b17]" name="closeapp" is-config="true" duration-ms="13557" started-at="2020-07-23T11:53:56Z" finished-at="2020-07-23T11:54:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
-      </class> <!-- Testscripts.Testlogin -->
+      </class> <!-- Testscripts3.Getalllinks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

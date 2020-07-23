@@ -18,7 +18,7 @@ public class genericopenurl
 	
 	driver=new FirefoxDriver();
 	
-	driver.get("http://flipkart.com");
+	driver.get("http://facebook.com");
 	
 	Thread.sleep(3000);
 	}
