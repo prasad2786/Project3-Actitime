@@ -1,10 +1,9 @@
-package GENERIC;
+package GENERIC3;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 
 public class genericopenurl 
 {
@@ -12,14 +11,16 @@ public class genericopenurl
 	static{
 		System.setProperty("webdriver.gecko.driver","./Softwares/geckodriver.exe");
 	}
-//	@Parameters("browser")
+
 	@BeforeTest
-	public void openapp(String browser)
+	public void openapp() throws InterruptedException
 	{
 	
 	driver=new FirefoxDriver();
 	
-	driver.get("http://localhost/login.do");
+	driver.get("http://flipkart.com");
+	
+	Thread.sleep(3000);
 	}
 	
 	@AfterTest

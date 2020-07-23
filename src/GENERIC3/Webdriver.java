@@ -1,4 +1,4 @@
-package GENERIC;
+package GENERIC3;
 
 import org.openqa.selenium.WebDriver;
 
