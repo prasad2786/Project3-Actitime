@@ -28,6 +28,7 @@ public class Getalllinks extends genericopenurl
 		{
 			
 			String data=l1.get(i).getText();
+			System.out.println(data);
 			e1.writedata("Sheet1",i,data);
 		}
 		

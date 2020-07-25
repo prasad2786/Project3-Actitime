@@ -3,18 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="Testscripts3.Getalllinks"/>
+      <class name="Testscripts3.multipleactions"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="Testscripts3.Getalllinks">
-        <methods>
-          <include name="closeapp"/>
-          <include name="getlinks"/>
-          <include name="openapp"/>
-        </methods>
-      </class> <!-- Testscripts3.Getalllinks -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
