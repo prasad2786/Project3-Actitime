@@ -25,7 +25,7 @@ public class Runproperties
 		
 		driver.get(url);
 		
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		
 		driver.findElement(By.xpath("//input[@id='username']")).sendKeys(uname);
 		driver.findElement(By.xpath("//input[@name='pwd']")).sendKeys(pwd);
